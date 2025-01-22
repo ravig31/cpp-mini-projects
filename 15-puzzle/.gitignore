@@ -10,3 +10,8 @@
 *.exe
 *.out
 *.app
+
+# Build directories
+build/
+/build*/
+cmake-build-*/
