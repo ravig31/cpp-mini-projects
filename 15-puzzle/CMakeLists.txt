@@ -8,6 +8,8 @@ endif()
 set(CMAKE_CXX_COMPILER "/opt/homebrew/opt/llvm/bin/clang++")
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_USE_RESPONSE_FILE_FOR_INCLUDES Off)
+set(CMAKE_CXX_CLANG_TIDY clang-tidy)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Add executable

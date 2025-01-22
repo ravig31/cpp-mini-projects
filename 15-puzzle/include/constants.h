@@ -1,7 +1,7 @@
 #pragma once
 
-namespace Constants 
+namespace Constants
 {
-    constexpr int g_consoleLines{ 25 };
-    constexpr int g_randomisationDepth{ 32 };
-};
+constexpr int g_consoleLines{ 25 };
+constexpr int g_randomisationDepth{ 32 };
+}; // namespace Constants
